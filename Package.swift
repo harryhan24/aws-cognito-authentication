@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/swift-server/async-http-client.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/swift-aws/aws-sdk-swift.git", .upToNextMajor(from: "4.0.0")),
+        .package(url: "https://github.com/harryhan24/aws-sdk-swift", .upToNextMajor(from: "4.0.0")),
         .package(url: "https://github.com/vapor/open-crypto.git", .upToNextMajor(from: "4.0.0-beta.2")),
         .package(url: "https://github.com/vapor/vapor.git", .upToNextMajor(from: "4.0.0-beta.3")),
         .package(url: "https://github.com/vapor/jwt-kit.git", .branch("4.0.0-beta.2.1")),
